@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import createReactClass from "create-react-class";
-import { Picker, Modal, View, ViewPropTypes, FlatList } from "react-native";
+import { Modal, View, ViewPropTypes, FlatList } from "react-native";
+import Picker from '@react-native-picker/picker';
 import _ from "lodash";
 import { Text } from "./Text";
 import { List } from "./List";

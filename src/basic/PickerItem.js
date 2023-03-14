@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Picker } from "react-native";
+// import { Picker } from "react-native";
+import Picker from '@react-native-picker/picker';
 
 import { connectStyle } from "native-base-shoutem-theme";
 import mapPropsToStyleNames from "../utils/mapPropsToStyleNames";
